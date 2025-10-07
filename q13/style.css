@@ -9,9 +9,23 @@
   padding: 2rem;
   display: flex;
   background-color: #fff5ec;
+  justify-content: space-between;
+  align-items: center;
+
 }
 
 .box {
   padding: 0.5rem;
   background-color: #ffd5c2;
+  flex: 1;
+  text-align: center;
+  margin: 0 0.5rem;
+
 }
+
+.other-box {
+  flex: 2;
+  background-color: "ffb88c";
+
+}
+

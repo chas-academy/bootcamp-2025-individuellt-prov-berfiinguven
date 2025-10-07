@@ -1,3 +1,29 @@
 body {
   margin: 0;
+  padding: 20px;
+  background-color: darkslategray;
+  color: white;
+
+
+
+}
+
+h1 {
+  color:white;
+
+}
+
+p:first-of-type {
+  font-style: italic;
+
+}
+
+p:nth-of-type(2) {
+  color: white;
+
+}
+
+p {
+  line-height: 1.5;
+
 }
