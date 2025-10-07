@@ -1,8 +1,21 @@
-body {
+html, body {
   margin: 0;
+  height: 100%;
 }
 
 .container {
   height: 100vh;
   background-color: #d6f4ff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color:#333;
+
+}
+
+.container:hover{
+  background-color: skyblue;
+
 }

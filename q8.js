@@ -2,7 +2,11 @@
 
 export function combineStrings(strings) {
   let result = "";
-  strings.forEach((string) => {});
+
+  strings.forEach((string) => {
+    result += string; // lägg till varje sträng i result
+  });
 
   return result;
 }
+

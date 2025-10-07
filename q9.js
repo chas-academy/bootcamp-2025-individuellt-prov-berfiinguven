@@ -4,17 +4,35 @@ export function myCalculator(operator, num1, num2) {
   switch (operator) {
     case "+":
       return myAddFunction(num1, num2);
-
     case "-":
       return mySubtractFunction(num1, num2);
-
     case "*":
       return myMultiplyFunction(num1, num2);
-
     case "/":
       return myDivisionFunction(num1, num2);
-
     default:
       return "Error operator not found!";
   }
+}
+
+
+function myAddFunction(a, b) {
+  return a + b;
+}
+
+
+function mySubtractFunction(a, b) {
+  return a - b;
+}
+
+
+function myMultiplyFunction(a, b) {
+  return a * b;
+}
+
+function myDivisionFunction(a, b) {
+  if (b === 0) {
+    return "Error: division by zero";
+  }
+  return a / b;
 }
